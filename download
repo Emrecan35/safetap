@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Face models (download separately)
+software/models/*.onnx
+
+# Local data: never commit biometric or personal data
+data/*
+!data/README.md
+*.db
+*.sqlite
+*.csv
+consent_forms/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
